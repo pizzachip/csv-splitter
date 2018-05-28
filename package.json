@@ -4,7 +4,8 @@
   "description": "for splitting out long csv files",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "run": "node splitter.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pizzachip/csv-splitter/issues"
   },
-  "homepage": "https://github.com/pizzachip/csv-splitter#readme"
+  "homepage": "https://github.com/pizzachip/csv-splitter#readme",
+  "devDependencies": {
+    "@types/node": "^10.1.2"
+  }
 }
